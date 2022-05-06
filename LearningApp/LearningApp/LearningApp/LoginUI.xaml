@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningApp.LoginUI">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="40">
+            <!--Resmin boyutu ayarlanacak-->
+            <Image Source="python.png" WidthRequest="180" HeightRequest="180"/>
+            <Entry x:Name="txtUsername" Placeholder="Username" TextColor="Black" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtpassword" Placeholder="Password" IsPassword="True" TextColor="Black" PlaceholderColor="Gray"></Entry>
+            <Button VerticalOptions="Center"
+                    BorderWidth="1.5"
+                    CornerRadius="50"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    BorderColor="Black"
+                    Clicked="LoginClicked"
+                    Text="Login"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
