@@ -15,3 +15,20 @@ C:\Users\mahsu\Desktop\All\Xamarin Apps\LearningApp\LearningApp\LearningApp\obj\
 C:\Users\mahsu\Desktop\All\Xamarin Apps\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\ref\LearningApp.dll
 C:\Users\mahsu\Desktop\All\Xamarin Apps\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\Page1.xaml.g.cs
 C:\Users\mahsu\Desktop\All\Xamarin Apps\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\LoginUI.xaml.g.cs
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\bin\Debug\netstandard2.0\LearningApp.deps.json
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\bin\Debug\netstandard2.0\LearningApp.dll
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\bin\Debug\netstandard2.0\LearningApp.pdb
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\LearningApp.csproj.AssemblyReference.cache
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\LearningApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\LoginUI.xaml.g.cs
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\LearningApp.AssemblyInfoInputs.cache
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\LearningApp.AssemblyInfo.cs
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\LearningApp.csproj.CoreCompileInputs.cache
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\LearningApp.dll
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\refint\LearningApp.dll
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\LearningApp.pdb
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\ref\LearningApp.dll
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\View\ContentUI.xaml.g.cs
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\View\Module1Page.xaml.g.cs

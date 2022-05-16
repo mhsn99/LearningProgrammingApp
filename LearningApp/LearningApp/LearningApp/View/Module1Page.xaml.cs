@@ -1,21 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace LearningApp
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace LearningApp.View
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Module1Page : ContentPage
     {
-        public MainPage()
+        public Module1Page()
         {
             InitializeComponent();
-            
         }
-
-        
     }
 }

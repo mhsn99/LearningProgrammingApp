@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bTBR29Xm3JOygf/sumlQYhNWR0KvvIB8tMBOaYzjMgrUnZctlSEXQEp/QN2iBXtngbOOylg+weVAsDuzfwRu7w==",
+  "dgSpecHash": "6NyJ5a882L7PZWzZWx0va7ULHvYqljJEMhaF0DspWlcbC9pNM+2H3oIEW+i/qn7cqZg1jWYOs8d27mLa41FhUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp.Android\\LearningApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp.Android\\LearningApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahsu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

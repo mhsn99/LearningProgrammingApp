@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LearningApp.LoginUI">
     <ContentPage.Content>
+        
         <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="40">
             <!--Resmin boyutu ayarlanacak-->
             <Image Source="python.png" WidthRequest="180" HeightRequest="180"/>

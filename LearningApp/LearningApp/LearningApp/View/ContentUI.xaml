@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"    
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"    
+             mc:Ignorable="d"
+             x:Class="LearningApp.View.ContentUI" Title="Content Page">
+    
+    
+    <!--Bileşenlerin görünümlerini ayarlayan style yapıları burada yer alıyor-->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+            <!--Kart görünümünü veren style yapıları-->
+            <Style x:Key="FrameCardViewStyle" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="OutlineColor" Value="LightGray" />
+                <Setter Property="BorderColor" Value="LightGray" />
+                <Setter Property="HasShadow" Value="True" />
+            </Style>
+            
+            <Style x:Key="itemsCardViewStackLayoutStyle" TargetType="StackLayout">
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="Spacing" Value="8" />
+            </Style>
+
+            <Style x:Key="itemsInsideCardViewStackLayoutStyle" TargetType="StackLayout">
+                <Setter Property="Orientation" Value="Horizontal" />
+                <Setter Property="Spacing" Value="8" />
+            </Style>
+
+            <Style x:Key="moduleImageStyle" TargetType="Image">
+                <Setter Property="WidthRequest" Value="80" />
+                <Setter Property="HeightRequest" Value="60" />
+                <Setter Property="Aspect" Value="AspectFit" />
+            </Style>
+
+            <Style x:Key="moduleImageFrameStyle" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="Margin" Value="0" />
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="IsClippedToBounds" Value="True" />
+            </Style>
+
+            <Style x:Key="detailsStackLayout" TargetType="StackLayout">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+                <Setter Property="Spacing" Value="2" />
+            </Style>
+
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="14" />
+            </Style>
+
+            <Style x:Key="NameLabel" TargetType="Label">
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+
+            <Style x:Key="imageStyle" TargetType="Image">
+                <Setter Property="WidthRequest" Value="8" />
+                <Setter Property="HeightRequest" Value="8" />
+            </Style>
+
+            <Style x:Key="imageLabelStackLayout" TargetType="StackLayout">
+                <Setter Property="Orientation" Value="Horizontal" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="10" BackgroundColor="WhiteSmoke">
+
+                <!--Python Programlama dili hakkında kısa bir bilgi.-->
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <Frame BackgroundColor="White" 
+                           VerticalOptions="Center" 
+                           HorizontalOptions="FillAndExpand"
+                           Padding="5">
+                        <StackLayout Spacing="10" VerticalOptions="Center" Padding="40">
+                            <StackLayout >
+                                <Frame Style="{StaticResource moduleImageFrameStyle}">
+                                    <Image Style="{StaticResource moduleImageStyle}" Source="python.png" />
+                                </Frame>
+                            </StackLayout>
+                            <Label Text="Python Programming Language" 
+                                   FontAttributes="Bold" 
+                                   TextColor="Black" 
+                                   FontSize="30"
+                                  HorizontalTextAlignment="Center"/>
+                            <Label Text="Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a 'batteries included' language due to its comprehensive standard library." 
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center"
+                                   FontSize="18"/>
+                        </StackLayout>
+                    </Frame>
+                    
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Modules" 
+                           FontAttributes="Bold" 
+                           TextColor="Black" 
+                           FontSize="30"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+                
+                <CollectionView x:Name="collectionViewListVertical" SelectionMode="Single"
+                                SelectionChanged="CollectionViewListSelectionChanged">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Spacing="18">
+                                <Frame Style="{StaticResource FrameCardViewStyle}">
+                                    <StackLayout Style="{StaticResource itemsCardViewStackLayoutStyle}">
+                                        <StackLayout Style="{StaticResource itemsInsideCardViewStackLayoutStyle}">
+                                            <Frame Style="{StaticResource moduleImageFrameStyle}">
+                                                <Image Style="{StaticResource moduleImageStyle}" Source="{Binding PhotoUrl}"/>
+                                            </Frame>
+                                            <StackLayout Style="{StaticResource detailsStackLayout}">
+                                                <Label Text="{Binding ModuleName}" Style="{StaticResource NameLabel}" />
+                                                <StackLayout Style="{StaticResource imageLabelStackLayout}">
+                                                    <Image Source="description.png" Style="{StaticResource imageStyle}"/>
+                                                    <Label Text="{Binding ModuleDesc}" Style="{StaticResource LabelStyle}"/>
+                                                </StackLayout>
+                                                <StackLayout>
+                                                    <ProgressBar>
+                                                        <!--Henüz aklıma bir şey gelmedi-->
+                                                    </ProgressBar>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+
+</ContentPage>

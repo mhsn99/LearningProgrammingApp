@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7G1sUMYp7/RhAhir/V+dYhhal1RWfSKC9cGf/zZ/grdDXvMQ22v6LuAAtp5TjIu2bKQpg1JlvD3QBGWM7XB/w==",
+  "dgSpecHash": "3wf0/C6QdeelEMKdK4bj+YEmKUoe8MrI68QHpNJRkRuM0I/9LmdDazfBTHlCDygvf94UegIRLxS0g2bTsGl4RQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj",
+  "projectFilePath": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahsu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

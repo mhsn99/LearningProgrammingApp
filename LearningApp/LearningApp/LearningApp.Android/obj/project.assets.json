@@ -3178,11 +3178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp.Android\\LearningApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp.Android\\LearningApp.Android.csproj",
       "projectName": "LearningApp.Android",
-      "projectPath": "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp.Android\\LearningApp.Android.csproj",
+      "projectPath": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp.Android\\LearningApp.Android.csproj",
       "packagesPath": "C:\\Users\\mahsu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3203,8 +3203,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj": {
-              "projectPath": "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj"
+            "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj": {
+              "projectPath": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj"
             }
           }
         }

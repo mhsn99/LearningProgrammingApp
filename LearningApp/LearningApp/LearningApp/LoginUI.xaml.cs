@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using LearningApp.View;
 
 namespace LearningApp
 {
@@ -20,7 +21,7 @@ namespace LearningApp
         {
             if (txtUsername.Text == "FZD" && txtpassword.Text == "0122")
             {
-                Navigation.PushAsync(new Page1());
+                Navigation.PushAsync(new ContentUI());
             }
             else
             {

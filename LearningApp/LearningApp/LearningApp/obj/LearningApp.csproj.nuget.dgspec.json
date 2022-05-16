@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj": {}
+    "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj": {
+    "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj",
+        "projectUniqueName": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj",
         "projectName": "LearningApp",
-        "projectPath": "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj",
+        "projectPath": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj",
         "packagesPath": "C:\\Users\\mahsu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp\\obj\\",
+        "outputPath": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

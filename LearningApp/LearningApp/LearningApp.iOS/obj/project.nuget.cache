@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u/7ez8xHSQxIe44Xsk/voR2vjlwNVXSAj2hH6mAkDSewwoYrHAoE5MlEX4YjHiBnEDHxYh9ndvqCD9AClnZoAQ==",
+  "dgSpecHash": "LZwmC/8Pf78PBlw+ySxwHHHszpWiMNs+83ivWHEMH1Qmdy+AUtD+yqUYWlMVf/DxRP0/MgS3/64tzU+vrcH2Bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahsu\\Desktop\\All\\Xamarin Apps\\LearningApp\\LearningApp\\LearningApp.iOS\\LearningApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp.iOS\\LearningApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahsu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

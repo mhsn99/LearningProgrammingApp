@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LearningApp.Page1.xaml", "Page1.xaml", typeof(global::LearningApp.Page1))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LearningApp.View.Module1Page.xaml", "View/Module1Page.xaml", typeof(global::LearningApp.View.Module1Page))]
 
-namespace LearningApp {
+namespace LearningApp.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Page1.xaml")]
-    public partial class Page1 : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\Module1Page.xaml")]
+    public partial class Module1Page : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Page1));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Module1Page));
         }
     }
 }
