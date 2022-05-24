@@ -1,14 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "3wf0/C6QdeelEMKdK4bj+YEmKUoe8MrI68QHpNJRkRuM0I/9LmdDazfBTHlCDygvf94UegIRLxS0g2bTsGl4RQ==",
+  "dgSpecHash": "ytykfnHoxbkUIB/VpkvelsDoQx5yibOYzfFgmhgMUobeD6z86ax9ZlRL+t7imell92cGj7+J0APWuxTRH4bMJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp\\LearningApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahsu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\mahsu\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+    "C:\\Users\\mahsu\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\mahsu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\mahsu\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.2\\xamarin.communitytoolkit.2.0.2.nupkg.sha512",
+    "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
+    "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512"
   ],
   "logs": []
 }

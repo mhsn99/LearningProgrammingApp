@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningApp.View.Quiz4Page" Title="Module 4: Quiz">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="QuestionFrameStyle" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="OutlineColor" Value="LightGray" />
+                <Setter Property="BorderColor" Value="LightGray" />
+                <Setter Property="HasShadow" Value="True" />
+            </Style>
+
+            <Style x:Key="itemsQuestionViewStackLayoutStyle" TargetType="StackLayout">
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="Spacing" Value="8" />
+            </Style>
+
+            <Style x:Key="itemsInsideQuestionViewStackLayoutStyle" TargetType="StackLayout">
+                <Setter Property="Orientation" Value="Vertical" />
+                <Setter Property="Spacing" Value="8" />
+            </Style>
+
+            <Style x:Key="detailsStackLayout" TargetType="StackLayout">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+                <Setter Property="Spacing" Value="2" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="WhiteSmoke">
+            <StackLayout>
+                <Label Text="Module 4: Loops" 
+                           FontAttributes="Bold" 
+                           TextColor="Black" 
+                           FontSize="30"
+                           HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout x:Name="ScoreInfoLayout" 
+                         VerticalOptions="Center" 
+                         HorizontalOptions="CenterAndExpand"
+                         IsVisible="False">
+                <Label x:Name="ScoreLabel" 
+                       Text="Score: 00" 
+                       FontSize="45"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                <StackLayout Spacing="10">
+                    <StackLayout>
+                        <Label x:Name="QuestionNumberLabel"
+                               HorizontalTextAlignment="Center"
+                               TextColor="Black"
+                               FontSize="30"/>
+                    </StackLayout>
+                    <StackLayout Spacing="18">
+                        <Frame Style="{StaticResource QuestionFrameStyle}">
+                            <StackLayout Style="{StaticResource itemsQuestionViewStackLayoutStyle}">
+                                <StackLayout Style="{StaticResource itemsInsideQuestionViewStackLayoutStyle}">
+                                    <Label x:Name="QuestionLabel" TextColor="Tomato" FontSize="40" FontAttributes="Bold" Text="{Binding Question}"></Label>
+                                    <BoxView BackgroundColor="AliceBlue" HeightRequest="10" HorizontalOptions="FillAndExpand"/>
+                                </StackLayout>
+                                <StackLayout>
+                                    <RadioButton x:Name="R1" FontSize="30" Content="{Binding OptionA}" ClassId="r1" CheckedChanged="Radio_CheckedChanged"/>
+                                    <RadioButton x:Name="R2" FontSize="30" Content="{Binding OptionB}" ClassId="r2" CheckedChanged="Radio_CheckedChanged"/>
+                                    <RadioButton x:Name="R3" FontSize="30" Content="{Binding OptionC}" ClassId="r3" CheckedChanged="Radio_CheckedChanged"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                        <StackLayout Orientation="Horizontal" Padding="20">
+                            <Button x:Name="BtnBack" 
+                                    Text="Back" 
+                                    FontSize="18"
+                                    HorizontalOptions="FillAndExpand"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="Moccasin"
+                                    Clicked="BtnBack_Clicked"/>
+                            <Button x:Name="BtnNext" 
+                                    Text="Next" 
+                                    FontSize="18" 
+                                    HorizontalOptions="FillAndExpand"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="MediumSpringGreen"
+                                    Clicked="BtnNext_Clicked"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout x:Name="InfoLayout" IsVisible="False">
+                        <Image x:Name="CorrectOrFalseImg" 
+                               Source="empty.png"
+                               WidthRequest="80"
+                               HeightRequest="80"
+                               Aspect="AspectFit"/>
+                        <Label x:Name="CorrectOrFalseLabel" 
+                               Text="You did not selected!"
+                               HorizontalTextAlignment="Center"
+                               FontAttributes="Bold"
+                               FontSize="Title"/>
+                    </StackLayout>
+                    <StackLayout x:Name="SubmitLayout"  Padding="20">
+                        <Button x:Name="BtnSubmit"
+                            Clicked="BtnSubmit_Clicked"
+                            Text="Submit" 
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="SteelBlue"
+                            TextColor="White"
+                            FontSize="20"
+                            FontAttributes="Bold"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout x:Name="ReturnContentLayout" Padding="20" VerticalOptions="End" IsVisible="False">
+                <Button x:Name="BtnReturnContent"
+                            Clicked="BtnReturnContent_Clicked"
+                            Text="Return Modules" 
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="HotPink"
+                            TextColor="White"
+                            FontSize="20"
+                            FontAttributes="Bold"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

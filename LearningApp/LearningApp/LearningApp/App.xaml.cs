@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using LearningApp.View;
 
 namespace LearningApp
 {
@@ -10,7 +11,9 @@ namespace LearningApp
         {
             InitializeComponent();
             //MainPage = new MainPage();
-            MainPage = new NavigationPage(new LoginUI());
+            //MainPage = new NavigationPage(new LoginUI());
+            MainPage = new NavigationPage(new Quiz4Page());
+            //MainPage = new NavigationPage(new ContentUI());
         }
 
         protected override void OnStart()

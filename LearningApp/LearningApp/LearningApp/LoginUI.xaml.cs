@@ -21,7 +21,7 @@ namespace LearningApp
         {
             if (txtUsername.Text == "FZD" && txtpassword.Text == "0122")
             {
-                Navigation.PushAsync(new ContentUI());
+                Navigation.PushAsync(new ContentUI(null));
             }
             else
             {

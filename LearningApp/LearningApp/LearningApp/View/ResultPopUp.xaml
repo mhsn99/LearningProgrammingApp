@@ -1,0 +1,21 @@
+﻿<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           xmlns:xct ="http://xamarin.com/schemas/2020/toolkit"
+           Size="500,300"
+           x:Class="LearningApp.View.ResultPopUp">
+
+    <StackLayout>
+        <Label x:Name="scoreTextLabel" 
+               VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="CenterAndExpand" Text="Hello"/>
+        <Button x:Name="BtnClose"
+                Text="Close" 
+                Margin="30"
+                FontSize="22"
+                CornerRadius="10"
+                BackgroundColor="Salmon"
+                TextColor="White"
+                FontAttributes="Bold"
+                Clicked="BtnClose_Clicked"/>
+    </StackLayout>
+</xct:Popup>

@@ -134,9 +134,7 @@
                                                     <Label Text="{Binding ModuleDesc}" Style="{StaticResource LabelStyle}"/>
                                                 </StackLayout>
                                                 <StackLayout>
-                                                    <ProgressBar>
-                                                        <!--Henüz aklıma bir şey gelmedi-->
-                                                    </ProgressBar>
+                                                    <ProgressBar Progress="{Binding PrgWidth}" ProgressColor="{Binding PrgColor}"/>
                                                 </StackLayout>
                                             </StackLayout>
                                         </StackLayout>

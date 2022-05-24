@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6NyJ5a882L7PZWzZWx0va7ULHvYqljJEMhaF0DspWlcbC9pNM+2H3oIEW+i/qn7cqZg1jWYOs8d27mLa41FhUg==",
+  "dgSpecHash": "oaS4McG+6Idn330ijOG3tG8yOCmMEuZS49wZmZRhOKnHrj9zHtqieJeGmvJgmxSXCUu4UW5WecjfyVhg+4/2rg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mahsu\\Desktop\\LearningProgrammingApp\\LearningApp\\LearningApp\\LearningApp.Android\\LearningApp.Android.csproj",
   "expectedPackageFiles": [
@@ -58,10 +58,32 @@
     "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.8\\xamarin.androidx.versionedparcelable.1.1.1.8.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.8\\xamarin.androidx.viewpager.1.0.0.8.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
+    "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.2\\xamarin.communitytoolkit.2.0.2.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\mahsu\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.3 to 1.7.0. Reference the package directly from the project to select a different version. \r\n LearningApp.Android -> LearningApp -> Xamarin.Essentials (>= 1.7.3) \r\n LearningApp.Android -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2401 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n LearningApp.Android -> LearningApp -> Xamarin.Forms (>= 5.0.0.2401) \r\n LearningApp.Android -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    }
+  ]
 }
