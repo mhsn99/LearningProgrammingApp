@@ -13,7 +13,7 @@ namespace LearningApp
             //MainPage = new MainPage();
             // MainPage = new NavigationPage(new LoginUI());
             // MainPage = new NavigationPage(new Quiz4Page());
-            MainPage = new NavigationPage(new Module3Page());
+            MainPage = new NavigationPage(new Module4Page());
         }
 
         protected override void OnStart()

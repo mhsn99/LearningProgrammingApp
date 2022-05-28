@@ -59,3 +59,4 @@ C:/Users/mahsu/Desktop/LearningProgrammingApp/LearningApp/LearningApp/LearningAp
 /Users/ahmetonursolmaz/workspace/school/LearningProgrammingApp/LearningApp/LearningApp/LearningApp/obj/Debug/netstandard2.0/ref/LearningApp.dll
 /Users/ahmetonursolmaz/workspace/school/LearningProgrammingApp/LearningApp/LearningApp/LearningApp/obj/Debug/netstandard2.0/LearningApp.pdb
 /Users/ahmetonursolmaz/workspace/school/LearningProgrammingApp/LearningApp/LearningApp/LearningApp/obj/Debug/netstandard2.0/View/Module3Page.xaml.g.cs
+/Users/ahmetonursolmaz/workspace/school/LearningProgrammingApp/LearningApp/LearningApp/LearningApp/obj/Debug/netstandard2.0/View/Module4Page.xaml.g.cs

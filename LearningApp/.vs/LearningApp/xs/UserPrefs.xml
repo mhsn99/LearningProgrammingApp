@@ -1,12 +1,25 @@
 ﻿<Properties StartupConfiguration="{A81E5331-BB81-443F-8336-F9C761DC3702}|Default">
-  <MonoDevelop.Ide.ItemProperties.LearningApp.Android PreferredExecutionTarget="Android.SelectDevice" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_30" />
+  <MonoDevelop.Ide.ItemProperties.LearningApp.Android PreferredExecutionTarget="Android.pixel_5_-_api_30" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LearningApp" expanded="True" />
+          <Node name="LearningApp" expanded="True">
+            <Node name="LearningApp" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Service" expanded="True" />
+              <Node name="App.xaml" selected="True" />
+              <Node name="LoginUI.xaml" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -14,9 +27,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
