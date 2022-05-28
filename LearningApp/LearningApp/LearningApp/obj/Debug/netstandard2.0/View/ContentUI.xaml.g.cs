@@ -13,7 +13,7 @@
 namespace LearningApp.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\ContentUI.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View/ContentUI.xaml")]
     public partial class ContentUI : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

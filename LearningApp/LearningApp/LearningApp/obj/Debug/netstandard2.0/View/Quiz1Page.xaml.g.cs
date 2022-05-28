@@ -13,7 +13,7 @@
 namespace LearningApp.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\Quiz1Page.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View/Quiz1Page.xaml")]
     public partial class Quiz1Page : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

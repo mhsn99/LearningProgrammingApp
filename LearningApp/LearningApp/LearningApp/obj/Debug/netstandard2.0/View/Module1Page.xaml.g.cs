@@ -13,7 +13,7 @@
 namespace LearningApp.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\Module1Page.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View/Module1Page.xaml")]
     public partial class Module1Page : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

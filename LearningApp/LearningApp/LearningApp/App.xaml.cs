@@ -11,9 +11,9 @@ namespace LearningApp
         {
             InitializeComponent();
             //MainPage = new MainPage();
-            //MainPage = new NavigationPage(new LoginUI());
-            MainPage = new NavigationPage(new Quiz4Page());
-            //MainPage = new NavigationPage(new ContentUI());
+            // MainPage = new NavigationPage(new LoginUI());
+            // MainPage = new NavigationPage(new Quiz4Page());
+            MainPage = new NavigationPage(new Module3Page());
         }
 
         protected override void OnStart()

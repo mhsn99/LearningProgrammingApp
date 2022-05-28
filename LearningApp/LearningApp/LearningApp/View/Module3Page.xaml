@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningApp.View.Module3Page" Title="Module 3">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout>
+                    <Label Text="Module 1: Condition"
+                           Padding="20,30,20,0"
+                           FontSize="30"
+                           VerticalOptions="StartAndExpand"
+                           HorizontalOptions="StartAndExpand" />
+                </StackLayout>
+                <StackLayout x:Name="ModuleCourseContent">
+                        <Label 
+                           Padding="20,20,10,10"
+                           FontSize="Body"
+                           VerticalOptions="StartAndExpand"
+                           HorizontalOptions="StartAndExpand">
+                            <x:String>
+                                Python supports the usual logical conditions from mathematics:
+    Equals: a == b
+    Not Equals: a != b
+    Less than: a &#60; b
+    Less than or equal to: a &#60;= b
+    Greater than: a > b
+    Greater than or equal to: a >= b
+                            </x:String>
+                        </Label>
+                </StackLayout>
+                <StackLayout Padding="20,0,20,10">
+                    <WebView VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Source="https://www.youtube.com/embed/DZwmZ8Usvnk"
+                        WidthRequest="500"
+                        HeightRequest="200"
+                        IsVisible="true"/>
+                </StackLayout>
+                 <StackLayout x:Name="ModuleCourseExample">
+                        <Label 
+                           Padding="20,10,10,10"
+                           FontSize="Body"
+                           VerticalOptions="StartAndExpand"
+                           HorizontalOptions="StartAndExpand">
+                            <x:String>
+Example:
+a = 33
+b = 200
+if b > a:
+    print("b is greater than a")
+
+In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that 200 is greater than 33, and so we print to screen that "b is greater than a".
+                            </x:String>
+                        </Label>
+                </StackLayout>
+                <StackLayout x:Name="QuizButton">
+                    <Button Text="Start Quiz"
+                            CornerRadius="20"
+                            Margin="20,0,20,10"
+                            Clicked="redirectToQuiz" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

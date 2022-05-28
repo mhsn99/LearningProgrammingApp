@@ -13,7 +13,7 @@
 namespace LearningApp.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\ResultPopUp.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View/ResultPopUp.xaml")]
     public partial class ResultPopUp : global::Xamarin.CommunityToolkit.UI.Views.Popup {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
