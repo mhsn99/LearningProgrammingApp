@@ -36,76 +36,77 @@
     </ContentPage.Resources>
 
     <ContentPage.Content>
-        <StackLayout  BackgroundColor="WhiteSmoke">
-            <StackLayout>
-                <Label Text="Module 3: Condition" 
+        <ScrollView>
+            <StackLayout  BackgroundColor="WhiteSmoke">
+                <StackLayout>
+                    <Label Text="Module 3: Condition" 
                            FontAttributes="Bold" 
                            TextColor="Black" 
                            FontSize="30"
                            HorizontalTextAlignment="Center"/>
-            </StackLayout>
-            <StackLayout x:Name="ScoreInfoLayout" 
+                </StackLayout>
+                <StackLayout x:Name="ScoreInfoLayout" 
                          VerticalOptions="Center" 
                          HorizontalOptions="CenterAndExpand"
                          IsVisible="False">
-                <Label x:Name="ScoreLabel" 
+                    <Label x:Name="ScoreLabel" 
                        Text="Score: 00" 
                        FontSize="45"
                        HorizontalTextAlignment="Center"/>
-            </StackLayout>
-            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
-                <StackLayout Spacing="10">
-                    <StackLayout>
-                        <Label x:Name="QuestionNumberLabel"
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <StackLayout Spacing="10">
+                        <StackLayout>
+                            <Label x:Name="QuestionNumberLabel"
                                HorizontalTextAlignment="Center"
                                TextColor="Black"
                                FontSize="30"/>
-                    </StackLayout>
-                    <StackLayout Spacing="18">
-                        <Frame Style="{StaticResource QuestionFrameStyle}">
-                            <StackLayout Style="{StaticResource itemsQuestionViewStackLayoutStyle}">
-                                <StackLayout Style="{StaticResource itemsInsideQuestionViewStackLayoutStyle}">
-                                    <Label x:Name="QuestionLabel" TextColor="Tomato" FontSize="40" FontAttributes="Bold" Text="{Binding Question}"></Label>
-                                    <BoxView BackgroundColor="AliceBlue" HeightRequest="10" HorizontalOptions="FillAndExpand"/>
+                        </StackLayout>
+                        <StackLayout Spacing="18">
+                            <Frame Style="{StaticResource QuestionFrameStyle}">
+                                <StackLayout Style="{StaticResource itemsQuestionViewStackLayoutStyle}">
+                                    <StackLayout Style="{StaticResource itemsInsideQuestionViewStackLayoutStyle}">
+                                        <Label x:Name="QuestionLabel" TextColor="Tomato" FontSize="40" FontAttributes="Bold" Text="{Binding Question}"></Label>
+                                        <BoxView BackgroundColor="AliceBlue" HeightRequest="10" HorizontalOptions="FillAndExpand"/>
+                                    </StackLayout>
+                                    <StackLayout>
+                                        <RadioButton x:Name="R1" FontSize="30" Content="{Binding OptionA}" ClassId="r1" CheckedChanged="Radio_CheckedChanged"/>
+                                        <RadioButton x:Name="R2" FontSize="30" Content="{Binding OptionB}" ClassId="r2" CheckedChanged="Radio_CheckedChanged"/>
+                                        <RadioButton x:Name="R3" FontSize="30" Content="{Binding OptionC}" ClassId="r3" CheckedChanged="Radio_CheckedChanged"/>
+                                    </StackLayout>
                                 </StackLayout>
-                                <StackLayout>
-                                    <RadioButton x:Name="R1" FontSize="30" Content="{Binding OptionA}" ClassId="r1" CheckedChanged="Radio_CheckedChanged"/>
-                                    <RadioButton x:Name="R2" FontSize="30" Content="{Binding OptionB}" ClassId="r2" CheckedChanged="Radio_CheckedChanged"/>
-                                    <RadioButton x:Name="R3" FontSize="30" Content="{Binding OptionC}" ClassId="r3" CheckedChanged="Radio_CheckedChanged"/>
-                                </StackLayout>
-                            </StackLayout>
-                        </Frame>
-                        <StackLayout Orientation="Horizontal" Padding="20">
-                            <Button x:Name="BtnBack" 
+                            </Frame>
+                            <StackLayout Orientation="Horizontal" Padding="20">
+                                <Button x:Name="BtnBack" 
                                     Text="Back" 
                                     FontSize="18"
                                     HorizontalOptions="FillAndExpand"
                                     FontAttributes="Bold"
                                     BackgroundColor="Moccasin"
                                     Clicked="BtnBack_Clicked"/>
-                            <Button x:Name="BtnNext" 
+                                <Button x:Name="BtnNext" 
                                     Text="Next" 
                                     FontSize="18" 
                                     HorizontalOptions="FillAndExpand"
                                     FontAttributes="Bold"
                                     BackgroundColor="MediumSpringGreen"
                                     Clicked="BtnNext_Clicked"/>
+                            </StackLayout>
                         </StackLayout>
-                    </StackLayout>
-                    <StackLayout x:Name="InfoLayout" IsVisible="False">
-                        <Image x:Name="CorrectOrFalseImg" 
+                        <StackLayout x:Name="InfoLayout" IsVisible="False">
+                            <Image x:Name="CorrectOrFalseImg" 
                                Source="empty.png"
                                WidthRequest="80"
                                HeightRequest="80"
                                Aspect="AspectFit"/>
-                        <Label x:Name="CorrectOrFalseLabel" 
+                            <Label x:Name="CorrectOrFalseLabel" 
                                Text="You did not selected!"
                                HorizontalTextAlignment="Center"
                                FontAttributes="Bold"
                                FontSize="Title"/>
-                    </StackLayout>
-                    <StackLayout x:Name="SubmitLayout"  Padding="20">
-                        <Button x:Name="BtnSubmit"
+                        </StackLayout>
+                        <StackLayout x:Name="SubmitLayout"  Padding="20">
+                            <Button x:Name="BtnSubmit"
                             Clicked="BtnSubmit_Clicked"
                             Text="Submit" 
                             HorizontalOptions="FillAndExpand"
@@ -113,11 +114,11 @@
                             TextColor="White"
                             FontSize="20"
                             FontAttributes="Bold"/>
+                        </StackLayout>
                     </StackLayout>
                 </StackLayout>
-            </StackLayout>
-            <StackLayout x:Name="ReturnContentLayout" Padding="20" VerticalOptions="End" IsVisible="False">
-                <Button x:Name="BtnReturnContent"
+                <StackLayout x:Name="ReturnContentLayout" Padding="20" VerticalOptions="End" IsVisible="False">
+                    <Button x:Name="BtnReturnContent"
                             Clicked="BtnReturnContent_Clicked"
                             Text="Return Modules" 
                             HorizontalOptions="FillAndExpand"
@@ -125,7 +126,8 @@
                             TextColor="White"
                             FontSize="20"
                             FontAttributes="Bold"/>
+                </StackLayout>
             </StackLayout>
-        </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LearningApp.View.Module1Page" Title="Hello World">
+             x:Class="LearningApp.View.Module2Page" Title="Collections">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
                 <StackLayout>
-                    <Label Text="Module 1: Hello World"
+                    <Label Text="Module 2: Collections"
                            Padding="20,30,20,0"
                            FontSize="30"
                            VerticalOptions="StartAndExpand"
@@ -19,20 +19,21 @@
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand">
                         <x:String>
-                            With our "Try it Yourself" editor, you can edit Python code and view the result.
+                            In programming, data type is an important concept.
+                            Variables can store data of different types, and different types can do different things.
                         </x:String>
                     </Label>
                 </StackLayout>
                 <StackLayout Padding="20,0,20,10">
                     <WebView VerticalOptions="FillAndExpand"
                         HorizontalOptions="FillAndExpand"
-                        Source="https://youtu.be/nCDZ1zvoZg0"
+                        Source="https://youtu.be/gCCVsvgR2KU"
                         WidthRequest="500"
                         HeightRequest="200"
                         IsVisible="true"/>
                 </StackLayout>
                 <StackLayout>
-                    <Label Text="Hello World"
+                    <Label Text="Collections"
                            Padding="20,0,20,0"
                            FontSize="20"
                            VerticalOptions="StartAndExpand"
@@ -46,8 +47,9 @@
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand">
                         <x:String>
-                            Insert the missing part of the code below to output "Hello World".
-                            print("Hello, World!")
+                            Print the data type of the variable x: 
+                            x = 5
+                            print(type(x))
                         </x:String>
                     </Label>
                 </StackLayout>

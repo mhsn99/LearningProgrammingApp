@@ -20,16 +20,17 @@ namespace LearningApp.View
         string correctans;
 
         public List<Quiz> AllQuestions = new List<Quiz>(Quiz4.GetQuestions());
-        public List<Module> modules = new List<Module>(Modules.GetModules());
+        public List<Module> modules {get; set;}
         int qIndex = 1;
         float prgValue = 0;
         readonly int qCount;
         readonly string[] userAnswers;
         readonly string[] clickedRadio;
-        public Quiz4Page()
+        public Quiz4Page(List<Module> sources)
         {
 
             InitializeComponent();
+            modules = sources;
             correct = 0;
             qCount = AllQuestions.Count;
             clickedRadio = new string[qCount];
@@ -196,7 +197,8 @@ namespace LearningApp.View
         /// <param name="e"></param>
         private void BtnReturnContent_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ContentUI(UpdatedModule()));
+            List<Module> updatedModules = UpdatedModule();
+            Application.Current.MainPage.Navigation.PushModalAsync(new ContentUI(updatedModules), true);
             Debug.WriteLine("score: " + score);
         }
 

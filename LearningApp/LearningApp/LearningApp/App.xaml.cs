@@ -11,8 +11,8 @@ namespace LearningApp
         {
             InitializeComponent();
             //MainPage = new MainPage();
-            //MainPage = new NavigationPage(new LoginUI());
-            MainPage = new NavigationPage(new Quiz4Page());
+            MainPage = new NavigationPage(new LoginUI());
+            //MainPage = new NavigationPage(new Quiz4Page());
             //MainPage = new NavigationPage(new ContentUI());
         }
 

@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LearningApp.View.Module1Page.xaml", "View/Module1Page.xaml", typeof(global::LearningApp.View.Module1Page))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LearningApp.View.Module2Page.xaml", "View/Module2Page.xaml", typeof(global::LearningApp.View.Module2Page))]
 
 namespace LearningApp.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\Module1Page.xaml")]
-    public partial class Module1Page : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\Module2Page.xaml")]
+    public partial class Module2Page : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout ModuleCourseContent;
@@ -27,7 +27,7 @@ namespace LearningApp.View {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Module1Page));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Module2Page));
             ModuleCourseContent = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "ModuleCourseContent");
             ForExample = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "ForExample");
             QuizButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "QuizButton");

@@ -53,10 +53,26 @@ namespace LearningApp.View
             // Tıkladığı module göre ilgili modülün sayfasına geçecek şuan sadece birinci modül sayfasına geçiş yapıyor
             if (selectedModule.ModuleName.ToString() == "Module 1: Hello World")
             {
-                Navigation.PushAsync(new Module1Page());
+                // Application.Current.MainPage.Navigation.PushModalAsync(new Module1Page(), true);
+                Navigation.PushModalAsync(new Module1Page(AllModules));
+            }
+            if (selectedModule.ModuleName.ToString() == "Module 2: Collections")
+            {
+                //Application.Current.MainPage.Navigation.PushModalAsync(new Module1Page(), true);
+                Navigation.PushModalAsync(new Module2Page(AllModules));
+            }
+            if (selectedModule.ModuleName.ToString() == "Module 3: Condition")
+            {
+                //Application.Current.MainPage.Navigation.PushModalAsync(new Module3Page(), true);
+                Navigation.PushModalAsync(new Module3Page(AllModules));
+            }
+            if (selectedModule.ModuleName.ToString() == "Module 4: Loops")
+            {
+                //Application.Current.MainPage.Navigation.PushModalAsync(new Module4Page(), true);
+                Navigation.PushModalAsync(new Module4Page(AllModules));
             }
 
-            
+
         }
     }
 }

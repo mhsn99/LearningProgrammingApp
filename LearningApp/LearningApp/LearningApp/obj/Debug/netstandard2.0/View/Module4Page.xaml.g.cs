@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LearningApp.View.Module1Page.xaml", "View/Module1Page.xaml", typeof(global::LearningApp.View.Module1Page))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LearningApp.View.Module4Page.xaml", "View/Module4Page.xaml", typeof(global::LearningApp.View.Module4Page))]
 
 namespace LearningApp.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\Module1Page.xaml")]
-    public partial class Module1Page : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\Module4Page.xaml")]
+    public partial class Module4Page : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout ModuleCourseContent;
@@ -23,13 +23,17 @@ namespace LearningApp.View {
         private global::Xamarin.Forms.StackLayout ForExample;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.StackLayout WhileExample;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout QuizButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Module1Page));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Module4Page));
             ModuleCourseContent = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "ModuleCourseContent");
             ForExample = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "ForExample");
+            WhileExample = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "WhileExample");
             QuizButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "QuizButton");
         }
     }

@@ -1,57 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LearningApp.View.Module1Page" Title="Hello World">
+             x:Class="LearningApp.View.Module4Page" Title="Loops">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
                 <StackLayout>
-                    <Label Text="Module 1: Hello World"
+                    <Label Text="Module 4: Loops"
                            Padding="20,30,20,0"
                            FontSize="30"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand" />
                 </StackLayout>
                 <StackLayout x:Name="ModuleCourseContent">
-                    <Label 
+                        <Label 
                            Padding="20,20,10,10"
                            FontSize="Body"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand">
-                        <x:String>
-                            With our "Try it Yourself" editor, you can edit Python code and view the result.
-                        </x:String>
-                    </Label>
+                            <x:String>
+                                There are two types of loops in Python, for and while.
+                            </x:String>
+                        </Label>
                 </StackLayout>
                 <StackLayout Padding="20,0,20,10">
                     <WebView VerticalOptions="FillAndExpand"
                         HorizontalOptions="FillAndExpand"
-                        Source="https://youtu.be/nCDZ1zvoZg0"
+                        Source="https://www.youtube.com/embed/6iF8Xb7Z3wQ"
                         WidthRequest="500"
                         HeightRequest="200"
                         IsVisible="true"/>
                 </StackLayout>
-                <StackLayout>
-                    <Label Text="Hello World"
+                 <StackLayout>
+                    <Label Text="The for loop"
                            Padding="20,0,20,0"
                            FontSize="20"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand" />
                 </StackLayout>
 
-                <StackLayout x:Name="ForExample">
-                    <Label 
+                 <StackLayout x:Name="ForExample">
+                        <Label 
                            Padding="20,0,10,10"
                            FontSize="Body"
                            VerticalOptions="StartAndExpand"
                            HorizontalOptions="StartAndExpand">
-                        <x:String>
-                            Insert the missing part of the code below to output "Hello World".
-                            print("Hello, World!")
-                        </x:String>
-                    </Label>
+                            <x:String>
+For loops iterate over a given sequence. Here is an example:
+primes = [2, 3, 5, 7]
+for prime in primes:
+    print(prime)
+                            </x:String>
+                        </Label>
+                </StackLayout>
+                                 <StackLayout>
+                    <Label Text="The while loop"
+                           Padding="20,0,20,0"
+                           FontSize="20"
+                           VerticalOptions="StartAndExpand"
+                           HorizontalOptions="StartAndExpand" />
                 </StackLayout>
 
+                 <StackLayout x:Name="WhileExample">
+                        <Label 
+                           Padding="20,0,10,10"
+                           FontSize="Body"
+                           VerticalOptions="StartAndExpand"
+                           HorizontalOptions="StartAndExpand">
+                            <x:String>
+While loops repeat as long as a certain boolean condition is met.
+count = 0
+while count &#60; 5:
+    print(count)
+    count += 1 # This is the same as count = count +
+                            </x:String>
+                        </Label>
+                </StackLayout>
                 <StackLayout x:Name="QuizButton">
                     <Button Text="Start Quiz"
                             CornerRadius="20"

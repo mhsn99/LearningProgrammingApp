@@ -11,10 +11,10 @@ using Xamarin.Forms.Xaml;
 namespace LearningApp.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Module1Page : ContentPage
+    public partial class Module3Page : ContentPage
     {
         public List<Module> AllModules { get; set; }
-        public Module1Page(List<Module> sources)
+        public Module3Page(List<Module> sources)
         {
             InitializeComponent();
             AllModules = sources;
@@ -22,7 +22,7 @@ namespace LearningApp.View
 
         void redirectToQuiz(System.Object sender, System.EventArgs e)
         {
-            Application.Current.MainPage.Navigation.PushModalAsync(new Quiz1Page(AllModules), true);
+            Application.Current.MainPage.Navigation.PushModalAsync(new Quiz3Page(AllModules), true);
         }
     }
 }

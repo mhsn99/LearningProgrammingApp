@@ -4,12 +4,17 @@
              x:Class="LearningApp.LoginUI">
     <ContentPage.Content>
         
-        <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="40">
-            <!--Resmin boyutu ayarlanacak-->
-            <Image Source="python.png" WidthRequest="180" HeightRequest="180"/>
-            <Entry x:Name="txtUsername" Placeholder="Username" TextColor="Black" PlaceholderColor="Gray"></Entry>
-            <Entry x:Name="txtpassword" Placeholder="Password" IsPassword="True" TextColor="Black" PlaceholderColor="Gray"></Entry>
-            <Button VerticalOptions="Center"
+        <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="40" Spacing="30">
+            
+            <StackLayout>
+                <Frame>
+                    <Image Source="python.png" WidthRequest="120" HeightRequest="120"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout Spacing="20">
+                <Entry x:Name="txtUsername" Placeholder="Username" TextColor="Black" PlaceholderColor="Gray"></Entry>
+                <Entry x:Name="txtpassword" Placeholder="Password" IsPassword="True" TextColor="Black" PlaceholderColor="Gray"></Entry>
+                <Button VerticalOptions="Center"
                     BorderWidth="1.5"
                     CornerRadius="50"
                     TextColor="Black"
@@ -17,6 +22,7 @@
                     BorderColor="Black"
                     Clicked="LoginClicked"
                     Text="Login"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

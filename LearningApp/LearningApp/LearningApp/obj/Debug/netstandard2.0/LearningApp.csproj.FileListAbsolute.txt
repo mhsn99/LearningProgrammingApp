@@ -37,3 +37,6 @@ C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningAp
 C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\View\Quiz2Page.xaml.g.cs
 C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\View\Quiz3Page.xaml.g.cs
 C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\View\Quiz4Page.xaml.g.cs
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\View\Module3Page.xaml.g.cs
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\View\Module4Page.xaml.g.cs
+C:\Users\mahsu\Desktop\LearningProgrammingApp\LearningApp\LearningApp\LearningApp\obj\Debug\netstandard2.0\View\Module2Page.xaml.g.cs
